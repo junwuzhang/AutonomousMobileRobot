@@ -1,0 +1,40 @@
+********************************************************************************
+TMS320C6x Hex Converter                                                  v7.4.19
+********************************************************************************
+
+INPUT FILE NAME: <C:/sgupta60/MyStuff/FinalProject/FinalProjectProject\debug\FinalProject.out>
+OUTPUT FORMAT:   Binary
+
+PHYSICAL MEMORY PARAMETERS
+   Default data width   :   8
+   Default memory width :   8
+   Default output width :   8
+
+BOOT LOADER PARAMETERS
+   Table Address: 0x0000, PAGE 0
+   Entry Point  : 0x11831ae0
+
+
+OUTPUT TRANSLATION MAP
+--------------------------------------------------------------------------------
+00000000..0003ffff  Page=0  Memory Width=8  ROM Width=8  "SPIFLASH"
+--------------------------------------------------------------------------------
+   OUTPUT FILES: C:/sgupta60/MyStuff/FinalProject/FinalProjectProject\..\FinalProject.bin [b0..b7]
+
+   CONTENTS: 00000000..0001fa4b   BOOT TABLE
+                         .hwi_vec : btad=00000000  dest=11832800 size=00000200
+                            .bios : btad=0000020c  dest=11823340 size=00004500
+                            .data : btad=00004714  dest=11833048 size=000000c0
+                           .pinit : btad=000047dc  dest=1182f7f4 size=0000000c
+                            .text : btad=000047f0  dest=11800000 size=00016660
+                           .cinit : btad=0001ae58  dest=11827840 size=00002cb4
+                          .switch : btad=0001db14  dest=118331c8 size=00000080
+                         .gblinit : btad=0001db9c  dest=11833248 size=00000070
+                         .sysinit : btad=0001dc14  dest=118317c0 size=00000500
+                         .trcdata : btad=0001e11c  dest=11833350 size=0000000c
+                       .rtdx_text : btad=0001e130  dest=1182d500 size=00000fc0
+                           .const : btad=0001f0f8  dest=1182f0c0 size=00000634
+                            .args : btad=0001f734  dest=1182c4f4 size=00000004
+                           .trace : btad=0001f740  dest=118325b8 size=00000200
+                             .log : btad=0001f948  dest=118332f4 size=00000030
+                             .sts : btad=0001f980  dest=11833108 size=000000c0
